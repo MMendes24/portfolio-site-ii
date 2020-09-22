@@ -1,9 +1,12 @@
 import React from 'react';
+import { AppStyled } from './styles'
+
+import './styles.css'
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <AppStyled>
+    </AppStyled>
   );
 }
 
