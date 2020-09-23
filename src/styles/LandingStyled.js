@@ -14,8 +14,13 @@ h1 {
 }
 
 p {
-    margin: 1%;
+    margin: 1% 0%;
     font-size: 2rem;
+}
+
+.ps {
+    margin: 3% 0%;
+    font-size: 1rem;
 }
 
 .color-span {

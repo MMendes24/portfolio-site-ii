@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 const NavBarStyled = styled.nav`
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-evenly;
 	margin: 1% 2% 2% 2%;
     border-bottom: 5px solid #262626;
     width: 100%;
@@ -31,6 +31,14 @@ const NavBarStyled = styled.nav`
 	color: #fff;
 	transform: translateY(-7px);
   }
+
+h2 {
+    font-size: 2.5rem;
+    margin: 1%;
+    padding: 1%;
+    text-transform: uppercase;
+	letter-spacing: 2.5px;
+}
 
 `
 export default NavBarStyled
