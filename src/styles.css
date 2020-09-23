@@ -30,11 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1.4;
-    font-family: 'Roboto', sans-serif;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-	margin: 1% 0%;
+	font-family: 'Roboto', sans-serif;
+	background-color: darkgray;
 }
 ol, ul {
 	list-style: none;

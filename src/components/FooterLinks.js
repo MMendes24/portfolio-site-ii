@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Footer } from '../styles'
+import { FooterStyled as Footer } from '../styles'
 
 //IMAGES FOR LINKS
 import Github from '../assets/Github_5.png'

@@ -17,12 +17,13 @@ function App() {
       <NavBar />
 
       <Switch>
-        <Route>
-          <AboutMe path="/about" />
+
+        <Route path="/about" >
+          <AboutMe />
         </Route>
 
-        <Route>
-          <Landing path="/" />
+        <Route path="/" >
+          <Landing />
         </Route>
 
       </Switch>

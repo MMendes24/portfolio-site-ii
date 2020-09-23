@@ -9,16 +9,15 @@ const Nav = styled.nav`
 
 
 .nav-link {
-	color: white;
+	color: #262626;
 	font-size: 2rem;
 	text-decoration: none;
-	background-color: #262626;;
+	border: 3px solid #262626;
 	margin: 1%;
 	padding: 1%;
 	text-transform: uppercase;
 	letter-spacing: 2.5px;
 	font-weight: 500;
-	border: none;
 	transition: all 0.3s ease 0s;
 	cursor: pointer;
 	outline: none;
@@ -28,11 +27,13 @@ const Nav = styled.nav`
 	transform: translateY(-7px);
   }
 
-h2 {
+.nav-header {
+	color: #262626;
     font-size: 2.5rem;
     margin: 1%;
     padding: 1%;
-    text-transform: uppercase;
+	text-transform: uppercase;
+	text-decoration: none;
 	letter-spacing: 2.5px;
 }
 
