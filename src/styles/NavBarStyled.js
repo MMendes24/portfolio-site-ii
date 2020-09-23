@@ -2,11 +2,10 @@ import styled from 'styled-components'
 
 const NavBarStyled = styled.nav`
 	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
+	justify-content: flex-end;
 	margin: 1% 2% 2% 2%;
     border-bottom: 5px solid #262626;
-    width: 80%;
+    width: 100%;
 
 
 .nav-link {
@@ -32,5 +31,6 @@ const NavBarStyled = styled.nav`
 	color: #fff;
 	transform: translateY(-7px);
   }
+
 `
 export default NavBarStyled

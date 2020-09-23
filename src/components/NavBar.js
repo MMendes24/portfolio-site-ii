@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import { NavBarStyled } from '../styles'
 
 const NavBar = () => {
-    return(
+    return (
         <NavBarStyled>
             <Link to="" className="nav-link">About Me</Link>
             <Link to="" className="nav-link">Resume</Link>
