@@ -8,6 +8,5 @@ const AppStyled = styled.div`
     width: 80%;
     margin: auto;
     background-color: white;
-    opacity: 0.8;
 `
 export default AppStyled
