@@ -8,5 +8,6 @@ export {
     AppStyled,
     Nav,
     LandingSection,
-    Footer
+    Footer,
+    AboutMeSection
 }

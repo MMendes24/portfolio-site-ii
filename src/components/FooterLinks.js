@@ -1,7 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import { Footer } from '../styles'
+
+//IMAGES FOR LINKS
 import Github from '../assets/Github_5.png'
 import Twitter from '../assets/Twitter_5.png'
 import Linkedin from '../assets/Linkedin_5.png'
