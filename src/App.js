@@ -1,9 +1,18 @@
 import React from 'react';
 
+//COMPONENTS
+import { NavBar } from './components'
+import { Landing } from './components'
+
+import './styles.css'
+import { AppStyled } from './styles'
+
 function App() {
   return (
-    <div className="App">
-    </div>
+    <AppStyled>
+      <NavBar />
+      <Landing />
+    </AppStyled>
   );
 }
 
