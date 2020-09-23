@@ -31,9 +31,10 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1.4;
     font-family: 'Roboto', sans-serif;
-    background-image: url('./assets/photo-1508643315917-6688bbbb4cb5.jpg');
-	background-size: cover;
+    background-image: url('./assets/photo-1581276879432-15e50529f34b.jpg');
 	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
 }
 ol, ul {
 	list-style: none;
