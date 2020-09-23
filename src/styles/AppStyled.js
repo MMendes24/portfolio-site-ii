@@ -7,6 +7,5 @@ const AppStyled = styled.div`
     align-items: center;
     width: 80%;
     margin: auto;
-    background-color: white;
 `
 export default AppStyled

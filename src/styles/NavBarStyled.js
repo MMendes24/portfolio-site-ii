@@ -13,7 +13,7 @@ const NavBarStyled = styled.nav`
 	color: white;
 	font-size: 2rem;
 	text-decoration: none;
-	background-color: #262626;
+	background-color: #262626;;
 	margin: 1%;
 	padding: 1%;
 	text-transform: uppercase;

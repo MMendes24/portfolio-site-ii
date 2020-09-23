@@ -9,7 +9,7 @@ import { AppStyled } from './styles'
 
 function App() {
   return (
-    <AppStyled>
+    <AppStyled className="App">
       <NavBar />
       <Landing />
     </AppStyled>

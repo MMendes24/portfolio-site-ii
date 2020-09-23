@@ -31,10 +31,11 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1.4;
     font-family: 'Roboto', sans-serif;
-    background-image: url('./assets/photo-1569748130764-3fed0c102c59.jpg');
+    /* background-image: url('./assets/photo-1505909182942-e2f09aee3e89.jpg'); */
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
+	margin: 1% 0%;
 }
 ol, ul {
 	list-style: none;
