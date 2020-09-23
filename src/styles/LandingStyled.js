@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const LandingStyled = styled.section`
+const LandingSection = styled.section`
 
 display: flex;
 flex-flow: column;
@@ -9,17 +9,17 @@ border-bottom: 5px solid #262626;
 
 
 h1 {
-    margin: 2% 0%;
+    margin: 2%;
     font-size: 5rem;
 }
 
 p {
-    margin: 1% 0%;
+    margin: 2% 4%;
     font-size: 2rem;
 }
 
 .ps {
-    margin: 3% 0%;
+    margin: 3% 2%;
     font-size: 1rem;
 }
 
@@ -28,4 +28,4 @@ p {
     font-weight: bold;
 }
 `
-export default LandingStyled
+export default LandingSection

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const NavBarStyled = styled.nav`
+const Nav = styled.nav`
 	display: flex;
 	justify-content: space-evenly;
 	margin: 1% 2% 2% 2%;
@@ -19,16 +19,12 @@ const NavBarStyled = styled.nav`
 	letter-spacing: 2.5px;
 	font-weight: 500;
 	border: none;
-	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 	transition: all 0.3s ease 0s;
 	cursor: pointer;
 	outline: none;
 }
 
 .nav-link:hover {
-	background-color: #262626;
-	box-shadow: 0px 15px 20px rgba(38, 38, 38, 0.4);
-	color: #fff;
 	transform: translateY(-7px);
   }
 
@@ -41,4 +37,4 @@ h2 {
 }
 
 `
-export default NavBarStyled
+export default Nav

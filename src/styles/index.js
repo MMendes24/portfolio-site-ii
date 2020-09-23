@@ -1,11 +1,11 @@
 import AppStyled from './AppStyled'
-import NavBarStyled from './NavBarStyled'
-import LandingStyled from './LandingStyled'
-import FooterStyled from './FooterStyled'
+import Nav from './Nav'
+import LandingSection from './LandingStyled'
+import Footer from './Footer'
 
 export {
     AppStyled,
-    NavBarStyled,
-    LandingStyled,
-    FooterStyled
+    Nav,
+    LandingSection,
+    Footer
 }
