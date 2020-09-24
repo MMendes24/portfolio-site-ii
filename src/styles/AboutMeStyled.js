@@ -5,7 +5,6 @@ display: flex;
 flex-flow: column;
 align-items: center;
 width: 100%;
-border-bottom: 5px solid #262626;
 padding-bottom: 2%;
 
     .about-header {

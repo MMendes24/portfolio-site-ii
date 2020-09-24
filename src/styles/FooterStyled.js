@@ -4,7 +4,8 @@ const FooterStyled = styled.footer`
 	display: flex;
 	justify-content: center;
 	margin: 1% 2% 2% 2%;
-    width: 100%;
+	width: 100%;
+	border-top: 5px solid #262626;
 
     .social-link {
     margin: 2% 2%;
