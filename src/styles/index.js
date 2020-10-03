@@ -1,11 +1,13 @@
 import AppStyled from './AppStyled'
-import Nav from './Nav'
+import NavBarStyled from './NavBarStyled'
 import LandingSection from './LandingStyled'
-import Footer from './Footer'
+import FooterStyled from './FooterStyled'
+import AboutMeSection from './AboutMeStyled'
 
 export {
     AppStyled,
-    Nav,
+    NavBarStyled,
     LandingSection,
-    Footer
+    FooterStyled,
+    AboutMeSection
 }
