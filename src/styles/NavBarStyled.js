@@ -39,6 +39,11 @@ const Nav = styled.nav`
 	text-transform: uppercase;
 	text-decoration: none;
 	letter-spacing: 2.5px;
+	transition: all 0.3s ease 0s;
+}
+
+.nav-header:hover {
+	color:#a1251b;
 }
 
 `

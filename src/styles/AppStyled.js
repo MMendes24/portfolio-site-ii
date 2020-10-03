@@ -7,8 +7,7 @@ const AppStyled = styled.div`
     align-items: center;
     width: 60%;
     margin: auto;
-    border-left: 5px solid #262626;
-    border-right: 5px solid #262626;
+    border: 5px solid #262626;
     background-color: whitesmoke;
     opacity: 0.9;
 `

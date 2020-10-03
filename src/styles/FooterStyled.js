@@ -18,7 +18,7 @@ const FooterStyled = styled.footer`
 
 	i.fab {
 		color: #a1251b;
-		font-size: 5rem;
+		font-size: 7rem;
 	}
 
 	.social-link:hover {

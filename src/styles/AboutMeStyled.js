@@ -14,7 +14,7 @@ padding-bottom: 2%;
 
     .about-p {
         margin: 2% 4%;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         width: 60%;    
         }
 

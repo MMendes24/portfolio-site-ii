@@ -7,6 +7,7 @@ import { Landing } from './components'
 import { FooterLinks } from './components'
 import { AboutMe } from './components'
 
+// STYLES
 import './styles.css'
 import { AppStyled } from './styles'
 
