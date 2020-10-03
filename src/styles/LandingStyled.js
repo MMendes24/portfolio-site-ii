@@ -5,9 +5,10 @@ const LandingSection = styled.section`
 display: flex;
 flex-flow: column;
 align-items: center;
+padding: 3% 0%;
 
 h1 {
-    margin: 2%;
+    margin: 1%;
     font-size: 5rem;
     }
 
