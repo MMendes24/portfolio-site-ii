@@ -4,12 +4,11 @@ const AboutMeSection = styled.section`
 display: flex;
 flex-flow: column;
 align-items: center;
-width: 100%;
-padding-bottom: 2%;
+padding: 3% 0%;
 
     .about-header {
-        margin: 2%;
-        font-size: 3rem;
+        margin: 1%;
+        font-size: 5rem;
     }
 
     .about-p {
