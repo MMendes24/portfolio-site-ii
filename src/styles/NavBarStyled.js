@@ -24,7 +24,7 @@ const Nav = styled.nav`
 }
 
 .nav-link:hover {
-	transform: translateY(-7px);
+	transform: translateY(-10px);
   }
 
 .nav-header {

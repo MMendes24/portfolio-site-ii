@@ -16,7 +16,7 @@ const FooterStyled = styled.footer`
 }
 
 .social-link:hover {
-	transform: translateY(-7px);
+	transform: translateY(-10px);
   }
 
 `
