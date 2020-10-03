@@ -9,12 +9,12 @@ padding-bottom: 2%;
 
     .about-header {
         margin: 2%;
-        font-size: 5rem;
+        font-size: 3rem;
     }
 
     .about-p {
         margin: 2% 4%;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         width: 60%;    
         }
 

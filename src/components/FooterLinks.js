@@ -11,14 +11,15 @@ const FooterLinks = () => {
     return (
         <Footer>
             <a className="social-link" href="https://github.com/MMendes24">
-                <img alt="link to Mars' Mendes Github" src={Github} />
+                <i class="fab fa-github-square"></i>
             </a>
             <a className="social-link"  href="https://twitter.com/MarsMendes2">
-                <img alt="link to Mars' Mendes Twitter" src={Twitter} />
+                <i class="fab fa-twitter-square" ></i>
             </a>
             <a className="social-link"  href="https://www.linkedin.com/in/marsdmendes/">
-                <img alt="link to Mars' Mendes linkedin" src={Linkedin} />
+                <i class="fab fa-linkedin"></i>
             </a>
+            
 
         </Footer>
     )

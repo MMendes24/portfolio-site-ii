@@ -8,9 +8,9 @@ const Nav = styled.nav`
     width: 100%;
 
 
-.nav-link {
+.nav-link, .nav-link-res {
 	color: #262626;
-	font-size: 2rem;
+	font-size: 1.3rem;
 	text-decoration: none;
 	border: 3px solid #262626;
 	margin: 1%;
@@ -23,15 +23,19 @@ const Nav = styled.nav`
 	outline: none;
 }
 
-.nav-link:hover {
+.nav-link-res {
+	color: whitesmoke;
+	background-color: #a1251b;
+	font-weight: 500;
+}
+
+.nav-link:hover, .nav-link-res:hover {
 	transform: translateY(-10px);
   }
 
 .nav-header {
 	color: #262626;
-    font-size: 2.5rem;
-    margin: 1%;
-    padding: 1%;
+	font-size: 3rem;
 	text-transform: uppercase;
 	text-decoration: none;
 	letter-spacing: 2.5px;

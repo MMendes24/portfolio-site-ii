@@ -8,7 +8,7 @@ align-items: center;
 
 h1 {
     margin: 2%;
-    font-size: 5rem;
+    font-size: 3rem;
     }
 
 p {

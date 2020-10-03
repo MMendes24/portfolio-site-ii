@@ -13,11 +13,17 @@ const FooterStyled = styled.footer`
 	transition: all 0.3s ease 0s;
 	cursor: pointer;
 	outline: none;
-}
 
-.social-link:hover {
-	transform: translateY(-10px);
-  }
+	}
+
+	i.fab {
+		color: #a1251b;
+		font-size: 5rem;
+	}
+
+	.social-link:hover {
+		transform: translateY(-10px);
+  	}
 
 `
 
