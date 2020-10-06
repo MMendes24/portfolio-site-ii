@@ -5,7 +5,6 @@ const Nav = styled.nav`
 	justify-content: space-evenly;
 	align-items: center;
 	width: 100%;
-	border-bottom: 5px solid whitesmoke;
 	background-color: #262626;
 	color: whitesmoke;
 
@@ -29,11 +28,13 @@ const Nav = styled.nav`
 
 .nav-link:hover {
 	transform: translateY(-10px);
+	color: #a1251b;
+	border: 3px solid #a1251b;
   }
 
 .nav-header {
 	color: whitesmoke;
-	font-size: 4rem;
+	font-size: 3rem;
 	text-transform: uppercase;
 	text-decoration: none;
 	transition: all 0.3s ease 0s;

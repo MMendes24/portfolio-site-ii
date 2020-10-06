@@ -3,9 +3,10 @@ import styled from 'styled-components'
 const FooterStyled = styled.footer`
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	width: 100%;
-	padding-bottom: 2%;
 	background-color: #262626;
+	padding: 3% 0%;
 
     .social-link {
 		margin: 1% 3%;

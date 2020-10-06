@@ -7,7 +7,8 @@ display: flex;
 flex-flow: column;
 align-items: center;
 padding: 3% 0%;
-background-image: linear-gradient(rgba(245, 245,245, 0.9), rgba(245, 245, 245, 0.9)), url(${bg});
+background-image: linear-gradient(rgba(245, 245,245, 0.8), rgba(245, 245, 245, 0.8)), url(${bg});
+font-weight: 600;
 
 
 h1 {
@@ -16,13 +17,13 @@ h1 {
 }
 
 p {
-    margin: 2% 4%;
+    margin: 1% 3%;
     font-size: 1.5rem;
     width: 60%;
 }
 
 .ps {
-    margin: 3% 2%;
+    margin: 2% 2%;
     font-size: 1rem;
 }
 
