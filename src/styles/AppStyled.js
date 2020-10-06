@@ -5,11 +5,7 @@ const AppStyled = styled.div`
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    width: 60%;
-    margin: auto;
-    border-left: 5px solid #262626;
-    border-right: 5px solid #262626;
     background-color: whitesmoke;
-    opacity: 0.9;
+    font-family: 'Roboto Mono', monospace;
 `
 export default AppStyled

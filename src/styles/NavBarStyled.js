@@ -5,17 +5,18 @@ const Nav = styled.nav`
 	justify-content: space-evenly;
 	align-items: center;
 	width: 100%;
-	border-top: 5px solid #262626;
-	border-bottom: 5px solid #262626;
+	background-color: #262626;
+	color: whitesmoke;
 
 
-.nav-link, .nav-link-res {
-	color: #262626;
+.nav-link {
+	color: whitesmoke;
 	font-size: 1.3rem;
 	text-decoration: none;
-	border: 3px solid #262626;
+	border: 3px solid whitesmoke;
+	border-radius: 10%;
 	padding: 1%;
-	margin: 3%;
+	margin: 1% 2%;
 	text-transform: uppercase;
 	letter-spacing: 2.5px;
 	font-weight: 500;
@@ -24,18 +25,15 @@ const Nav = styled.nav`
 	outline: none;
 }
 
-.nav-link-res {
-	color: whitesmoke;
-	background-color: #a1251b;
-	font-weight: 500;
-}
 
-.nav-link:hover, .nav-link-res:hover {
+.nav-link:hover {
 	transform: translateY(-10px);
+	color: #a1251b;
+	border: 3px solid #a1251b;
   }
 
 .nav-header {
-	color: #262626;
+	color: whitesmoke;
 	font-size: 3rem;
 	text-transform: uppercase;
 	text-decoration: none;
