@@ -8,22 +8,24 @@ flex-flow: column;
 align-items: center;
 padding: 3% 0%;
 background-image: linear-gradient(rgba(245, 245,245, 0.8), rgba(245, 245, 245, 0.8)), url(${bg});
-font-weight: 600;
 
 
 h1 {
     margin: 1%;
-    font-size: 5rem;
+    font-size: 4rem;
+    text-transform:uppercase;
 }
 
 p {
-    margin: 1% 3%;
+    margin: 2% 3%;
     font-size: 1.5rem;
     width: 60%;
+    font-weight: 600;
 }
 
 .ps {
     margin: 2% 2%;
+    padding: 1% 0%;
     font-size: 1rem;
 }
 

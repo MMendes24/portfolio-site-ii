@@ -26,7 +26,6 @@ function App() {
         <Route path="/" >
           <Landing />
         </Route>
-
       </Switch>
       <FooterLinks />
     </AppStyled>
