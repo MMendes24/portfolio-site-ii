@@ -23,7 +23,13 @@ const FooterStyled = styled.footer`
 	i.fab:hover {
 		transform: translateY(-10px);
 		color: #a1251b;
-  	}
+	  }
+	  
+	  .about-p {
+        margin: 2% 4%;
+        font-size: 1.5rem;
+        width: 60%;    
+    }
 
 `
 
