@@ -8,10 +8,10 @@ width: 100%;
 background-image: linear-gradient(rgba(245, 245,245, 0.8), rgba(245, 245, 245, 0.8)), url(${bg});
 
     #profile {
-        width: 33%;
+        width: 40%;
+        max-height: 40%;
         margin: 1% 3%;
         border-radius: 10%;
-        border: 3px solid #262626;
     }
 
     .landing-div {
@@ -21,7 +21,7 @@ background-image: linear-gradient(rgba(245, 245,245, 0.8), rgba(245, 245, 245, 0
     }
 
     .about-header {
-        margin: 1%;
+        margin: 2%;
         text-align: center;
         font-size: 4rem;
         text-transform:uppercase;
@@ -29,14 +29,16 @@ background-image: linear-gradient(rgba(245, 245,245, 0.8), rgba(245, 245, 245, 0
     }
 
     .about-p {
-        margin: 2% 5%;
+        margin: 3% auto;
         font-size: 1.5rem; 
-        }
+        width: 85%;
+    }
 
     .color-span {
         color: #a1251b;
         font-weight: bold;
     }
+
 `
 
 export default AboutMeSection

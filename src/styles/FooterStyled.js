@@ -2,19 +2,26 @@ import styled from 'styled-components'
 
 const FooterStyled = styled.footer`
 	display: flex;
+	flex-flow: column;
 	justify-content: center;
 	align-items: center;
 	width: 100%;
 	background-color: #262626;
-	padding: 3% 0%;
+	padding: 1% 0%;
+
+	.footer-div {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
 
     .social-link {
-		margin: 1% 3%;
+		margin: 1% 2%;
 	}
 
 	i.fab {
 		color: whitesmoke;
-		font-size: 7rem;
+		font-size: 6rem;
 		transition: all 0.3s ease 0s;
 		cursor: pointer;
 		outline: none;
@@ -28,7 +35,7 @@ const FooterStyled = styled.footer`
 	  .about-p {
         margin: 2% 4%;
         font-size: 1.5rem;
-        width: 60%;    
+		color: whitesmoke;    
     }
 
 `

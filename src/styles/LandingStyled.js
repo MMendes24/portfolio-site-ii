@@ -17,7 +17,7 @@ h1 {
 }
 
 p {
-    margin: 1% 3%;
+    margin: 2% 3%;
     font-size: 1.5rem;
     width: 60%;
     font-weight: 600;
@@ -25,6 +25,7 @@ p {
 
 .ps {
     margin: 2% 2%;
+    padding: 1% 0%;
     font-size: 1rem;
 }
 
