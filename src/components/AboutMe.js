@@ -6,7 +6,7 @@ import { AboutMeSection } from '../styles'
 const AboutMe = () => {
     return (
         <AboutMeSection>
-            <div className="landing-div">
+            <div className="about-div">
                 <h2 className="about-header">Oh, <span className="color-span">me?</span></h2>
 
                 <p className="about-p" My>I love to work with <span className="color-span">React</span> but I'm open to falling in love with other frameworks. At the same time, I've always <span className="color-span">excelled</span> on server side. I'm a huge believer in programmatic solutions and that hard-coded anything is a last resort. I like my components <span className="color-span">modular, resuable, and functional.</span> I prefer my web servers RESTful but I would never turn down experimenting with a new methodology. I have a lot of <span className="color-span">skills</span> but working with a new and unfamiliar tech stack is much more exciting to me than looking smart. I expect to work in software and web development for the rest of my life.</p>

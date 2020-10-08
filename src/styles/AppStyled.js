@@ -7,5 +7,5 @@ const AppStyled = styled.div`
     align-items: center;
     background-color: whitesmoke;
     font-family: 'Roboto Mono', monospace;
-`
+    `
 export default AppStyled

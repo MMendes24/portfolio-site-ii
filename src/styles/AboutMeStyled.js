@@ -12,9 +12,10 @@ background-image: linear-gradient(rgba(245, 245,245, 0.8), rgba(245, 245, 245, 0
         max-height: 40%;
         margin: 1% 3%;
         border-radius: 10%;
+        width: 100vh;
     }
 
-    .landing-div {
+    .about-div {
         flex-flow: column;
         align-items: center;
         justify-content: center;
@@ -30,7 +31,7 @@ background-image: linear-gradient(rgba(245, 245,245, 0.8), rgba(245, 245, 245, 0
 
     .about-p {
         margin: 3% auto;
-        font-size: 1.5rem; 
+        font-size: 1.3rem; 
         width: 85%;
     }
 
