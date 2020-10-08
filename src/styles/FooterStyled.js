@@ -32,9 +32,9 @@ const FooterStyled = styled.footer`
 		color: #a1251b;
 	  }
 	  
-	  .about-p {
+	.about-p {
         margin: 2% 4%;
-        font-size: 1.5rem;
+        font-size: 1rem;
 		color: whitesmoke;    
     }
 

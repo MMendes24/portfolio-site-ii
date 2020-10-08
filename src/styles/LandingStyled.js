@@ -33,5 +33,6 @@ p {
     color: #a1251b;
     font-weight: bold;
 }
+
 `
 export default LandingSection

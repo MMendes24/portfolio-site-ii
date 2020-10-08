@@ -33,11 +33,10 @@ function App() {
 
         <Route path="/" >
           <Landing />
+          <FooterLinks />
         </Route>
         
       </Switch>
-
-      <FooterLinks />
 
     </AppStyled>
   );

@@ -14,10 +14,6 @@ h2 {
     text-transform:uppercase;
 }
 
-a {
-    text-decoration:none;
-}
-
 .desc-class {
     font-size: 1.3rem;
     margin: 1% auto;
