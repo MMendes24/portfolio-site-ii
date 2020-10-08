@@ -14,6 +14,10 @@ h2 {
     text-transform:uppercase;
 }
 
+a {
+    text-decoration:none;
+}
+
 .desc-class {
     font-size: 1.3rem;
     margin: 1% auto;
@@ -21,8 +25,10 @@ h2 {
 
 .stack-class {
     margin: 2% auto;
+    padding: 3% 0%;
     font-size: 1.3rem;
     font-weight: 600;
+    border-bottom: 5px solid #262626;
 }
 
 .project-class {
@@ -32,7 +38,12 @@ h2 {
 
 .bullet-class {
     font-size: 1.3rem;
-    margin: 1% auto;
+    margin: 2% auto;
+}
+
+.color-span {
+    color: #a1251b;
+    font-weight: bold;
 }
 
 `
