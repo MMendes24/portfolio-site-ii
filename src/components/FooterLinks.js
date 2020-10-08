@@ -18,7 +18,7 @@ const FooterLinks = () => {
                     <i class="fab fa-linkedin"></i>
                 </a>
             </div>
-            <p className="about-p">mdmbusiness2@gmail.com</p>
+            {/* <p className="about-p">mdmbusiness2@gmail.com</p> */}
         </Footer>
     )
 }
