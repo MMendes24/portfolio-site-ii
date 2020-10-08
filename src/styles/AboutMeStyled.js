@@ -8,7 +8,7 @@ width: 100%;
 background-image: linear-gradient(rgba(245, 245,245, 0.8), rgba(245, 245, 245, 0.8)), url(${bg});
 
     #profile {
-        width: 40%;
+        width: 33%;
         max-height: 40%;
         margin: 1% 3%;
         border-radius: 10%;
@@ -31,7 +31,7 @@ background-image: linear-gradient(rgba(245, 245,245, 0.8), rgba(245, 245, 245, 0
 
     .about-p {
         margin: 3% auto;
-        font-size: 1.3rem; 
+        font-size: 1.5rem; 
         width: 85%;
     }
 

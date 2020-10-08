@@ -2,10 +2,14 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom'
 
 //COMPONENTS
-import { NavBar } from './components'
-import { Landing } from './components'
-import { FooterLinks } from './components'
-import { AboutMe } from './components'
+import {
+  NavBar,
+  Portfolio,
+  Landing,
+  FooterLinks,
+  AboutMe
+} from './components'
+
 
 // STYLES
 import './styles.css'
@@ -19,6 +23,10 @@ function App() {
 
       <Switch>
 
+        <Route path="/portfolio" >
+          <Portfolio />
+        </Route>
+
         <Route path="/about" >
           <AboutMe />
         </Route>
@@ -26,8 +34,11 @@ function App() {
         <Route path="/" >
           <Landing />
         </Route>
+
       </Switch>
+
       <FooterLinks />
+
     </AppStyled>
   );
 }
