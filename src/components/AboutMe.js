@@ -1,5 +1,4 @@
 import React from 'react'
-import profile from '../assets/profile.jpg'
 
 import { AboutMeSection } from '../styles'
 
@@ -15,7 +14,6 @@ const AboutMe = () => {
                 <p className="about-p">I am happily married and love my wife and our two cats very much. It would be impossible to devote so much to what I do without them. Together we've gone to Virginia, California, New York, North Carolina, Louisiana, Mississippi, Pennsylvannia, and <span className="color-span">more,</span> sometimes to visit and sometimes to live. I can <span className="color-span">relocate anywhere as needed.</span></p>
             </div>
             <div className="skills">
-                {/* <img id="profile" src={profile} alt="mars mendes" /> */}
                 <h2 className="about-header">>Skills</h2>
                 <div className="column">
                     <i class="fab fa-js"></i>

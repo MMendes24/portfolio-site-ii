@@ -4,8 +4,15 @@ import bg from '../assets/photo-1555099962-4199c345e5dd.jpg'
 
 const PortfolioSection = styled.section`
 display: flex;
-justify-content: space-evenly;
+flex-flow: column;
 background-image: linear-gradient(rgba(245, 245,245, 0.8), rgba(245, 245, 245, 0.8)), url(${bg});
+padding-bottom: 10%;
+
+.project-header {
+    margin: 1%;
+    font-size: 4rem;
+    text-transform:uppercase;
+}
 
 h2 {
     margin: 2%;
@@ -27,14 +34,18 @@ h2 {
     border-bottom: 5px solid #262626;
 }
 
+.projects-wrapper {
+    display: flex;
+}
+
 .project-class {
-    width: 40%;
+    width: 25%;
     margin: 1% auto;
 }
 
 .bullet-class {
     font-size: 1.3rem;
-    margin: 2% auto;
+    margin: 2%;
 }
 
 .color-span {
