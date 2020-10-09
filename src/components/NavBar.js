@@ -10,9 +10,9 @@ const NavBar = () => {
                 <h2>Mars Mendes</h2>
             </Link>
             
-            <Link to="/about" className="nav-link">About Me</Link>
-            <Link to="" className="nav-link">Portfolio</Link>
-            <Link to="" className="nav-link">Resume</Link>
+            <Link to="/about" className="nav-link">>About Me</Link>
+            <Link to="/portfolio" className="nav-link">>Portfolio</Link>
+            <Link to="" className="nav-link">>Resume</Link>
         </Nav>
     )
 }

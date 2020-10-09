@@ -7,6 +7,7 @@ const Nav = styled.nav`
 	width: 100%;
 	background-color: #262626;
 	color: whitesmoke;
+	padding: 1%;
 
 
 .nav-link {
