@@ -17,7 +17,7 @@ padding-bottom: 10%;
 h2 {
     margin: 2%;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-transform:uppercase;
 }
 
@@ -39,12 +39,12 @@ h2 {
 }
 
 .project-class {
-    width: 25%;
+    width: 33%;
     margin: 1% auto;
 }
 
 .bullet-class {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin: 2%;
 }
 
